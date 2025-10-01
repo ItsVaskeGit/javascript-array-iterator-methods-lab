@@ -322,7 +322,7 @@ a specific ID 823423 from an array of comment objects.
 - Assign the found comment object to the variable 'commentById'.
 */
 
-let commentById = comments.find((comment) => { return comment.id = 823423; });
+let commentById = comments.find((comment) => { return comment.id === 823423; });
 
 // Complete the exercise in the space below:
 
@@ -339,7 +339,7 @@ of comment objects.
 - Store the index in the variable 'idx'.
 */
 
-let idx = comments.findIndex((comment) => { return comment.id = 123523; });
+let idx = comments.findIndex((comment) => { return comment.id === 123523; });
 
 // Complete the exercise in the space below:
 
