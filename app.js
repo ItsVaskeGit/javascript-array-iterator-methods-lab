@@ -160,7 +160,7 @@ the past to those born most recently).
 */
 
 let sortedByBirthYear = inventors.sort((inventor1, inventor2) => {
-    return (inventor1 < inventor2 ? 1 : -1);
+    return (inventor2.year < inventor1.year ? 1 : -1);
 });
 
 // Complete the exercise in the space below:
